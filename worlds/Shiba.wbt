@@ -1,0 +1,155 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/sony/aibo/protos/AiboErs7.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/softbank/nao/protos/BallCandy.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/plants/protos/BunchOfSunFlowers.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/SoccerBall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/animals/protos/Cat.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/contests/tower_of_hanoi/protos/YoubotFlag.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/TrafficCone.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/PicketFence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/DogHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/contests/robocup/protos/RobocupGoal.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/Ball.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.23862184171163167 -0.2806675466864828 -0.9296694815337008 4.8016349345390505
+  position 1.8323310414960787 -1.847788824014673 1.1146532678555305
+}
+TexturedBackground {
+  texture "stadium"
+}
+TexturedBackgroundLight {
+  texture "morning_cloudy_empty"
+  luminosity 3
+}
+TrafficCone {
+  translation 1.47 -1.87 0
+}
+Cat {
+  translation 3.11402 1.84501 0
+  rotation 0 0 1 2.16103e-06
+}
+SoccerBall {
+  translation 1.2700725963545325 -0.058257269320975316 0.11205824000000002
+  rotation -0.9391372520839953 0.3414565489615388 0.03779744593750147 1.5719613498471534
+}
+SoccerBall {
+  translation 3.61046 -1.61902 0.11205824000000002
+  rotation 0.054479981846782786 0.6865667712298108 -0.7250227584159319 0.23673530717958616
+  name "soccer ball(1)"
+}
+BallCandy {
+  translation 2.5368300263319554 -0.30449568633239227 0.032248864000000016
+  rotation 0.015743416712590087 0.9285379858655988 -0.37090342898775003 1.400068191925019
+  color 1 0 0
+}
+Ball {
+  translation 2.5151040956322 0.01960798685172607 0.0324136720079594
+  rotation -0.003308975795755324 0.003088432649545087 0.9999897560790072 1.6386266990756853
+}
+AiboErs7 {
+  hidden position_0_0 -1.2130713078400804e-07
+  hidden position_0_1 -6.83838245488392e-10
+  hidden position_0_2 0.008684294191270397
+  hidden position_0_3 -0.008676754022353128
+  hidden position_0_4 -0.00870142380976039
+  hidden position_0_5 0.008710071095715533
+  hidden rotation_2 0.5773536432362577 -0.5773466327616856 -0.5773505315495633 2.0944022104086466
+  hidden position_2_0 9.09385377644973e-09
+  hidden position_3_0 -5.42506529050993e-08
+  hidden rotation_4 -1 0 0 5.16191365590357e-08
+  hidden position_4_0 -1.7799495907082387e-10
+  hidden position_4_1 6.977857498006991e-11
+  hidden position_4_2 0
+  hidden rotation_11 1 0 0 0
+  hidden position_14_0 -5.467966211251286e-10
+  hidden rotation_16 0 -1 0 0.008684294191294108
+  hidden position_16_0 -0.15806421604525836
+  hidden rotation_17 1 0 0 0.158064216045258
+  hidden position_17_0 0.30791732500997954
+  hidden rotation_18 0.6280949707047218 -0.6280938251186574 -0.4593417623330672 2.280416115907423
+  hidden rotation_20 0 -1 0 0.00867675402234631
+  hidden position_20_0 -0.14202811713732416
+  hidden rotation_21 1 0 0 0.14202811713732275
+  hidden position_21_0 0.29194724116395165
+  hidden rotation_22 0.5124352751345918 -0.5124277415568986 -0.6890775707281664 1.9348860028169372
+  hidden rotation_24 0 0.9999999999999999 0 0.008701423809770412
+  hidden position_24_0 -0.14199720817722813
+  hidden rotation_25 -1 0 0 0.14199720817722825
+  hidden position_25_0 0.2919453758260071
+  hidden rotation_26 0.6258541024716471 -0.6258529570749461 -0.46541886354117046 2.270401791749491
+  hidden rotation_28 0 1 0 0.00871007109573157
+  hidden position_28_0 -0.1580575765148068
+  hidden rotation_29 -1 0 0 0.15805757651480576
+  hidden position_29_0 0.30794766954976827
+  hidden rotation_30 0.5083406727346944 -0.5083331710121164 -0.6951166432278865 1.9267196183812703
+  translation 1.9008321905045604 -0.23672776050518426 0.14663941500033256
+  rotation 0.020895489957251212 0.03422998354845344 0.9991955197686383 0.955254
+  name "ERS-7(1)"
+  controller "ShibaController"
+  headSlot [
+    SpotLight {
+      attenuation 0 0 1
+      beamWidth 0.7
+      direction 0 1 -1
+    }
+    RangeFinder {
+    }
+    DistanceSensor {
+      name "ds"
+    }
+  ]
+}
+BunchOfSunFlowers {
+  translation 2.53 2.24 0
+}
+YoubotFlag {
+  translation 3.59 -2.06 0
+}
+RectangleArena {
+  translation 1.62 0 0
+  floorSize 5 5
+  floorAppearance Parquetry {
+    type "light strip"
+    colorOverride 1 1 0
+  }
+}
+RobocupGoal {
+}
+DogHouse {
+  translation 1.61 1.9 0
+  rotation 0 0 1 -1.5707953071795862
+}
+PicketFence {
+  translation -0.96 2.64 0
+}
+PicketFence {
+  translation 0.76 2.59 0
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(3)"
+}
+PicketFence {
+  translation 2.33 2.6 0
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(4)"
+}
+PicketFence {
+  translation 4.07 2.6 0
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(5)"
+}
+PicketFence {
+  translation -0.93 0.87 0
+  name "picket fence(1)"
+}
+PicketFence {
+  translation -0.95 -0.87 0
+  name "picket fence(2)"
+}
