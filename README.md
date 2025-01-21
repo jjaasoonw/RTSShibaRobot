@@ -5,7 +5,7 @@ Prerequisites:
    
 Steps to run:
 1. open the WBT file inside shiba/worlds. This should launch webots
-2. clean and build the project
-3. run the shiba/webot-speech.py file
+2. the robot will walk around by default
+3. To give command, first need to call "Shiba"
 4. start saying commands:
-   - "sit down", "lie down", "give paw", "move forward", "move backward", "turn left", "turn right"
+   - "sit down", "lie down", "give hand", "forward", "backward", "turn left", "turn right", "find ball",  "clap", "happy"
